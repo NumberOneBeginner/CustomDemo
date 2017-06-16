@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mmednet.www.customdemos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.mmednet.www.customdemos.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.mmednet.www.customdemos.activity.QuanQuanActivity"></activity>
+        <activity android:name="com.mmednet.www.customdemos.activity.TongJiActivity"></activity>
+        <activity android:name="com.mmednet.www.customdemos.activity.ZheLineActivity"></activity>
+        <activity android:name="com.mmednet.www.customdemos.activity.BoWenActivity"></activity>
+    </application>
+
+</manifest>
